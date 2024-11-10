@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.area-plot {
+    stroke: none;
+    mix-blend-mode: multiply;
+}
+
+.company-label {
+    text-anchor: middle;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.axis-label {
+    text-anchor: middle;
+    font-size: 14px;
+    font-weight: semibold;
+}
+
+.grid path,
+.grid line {
+    stroke: #80808038
+}
+
+.background {
+    fill: #f1f2f4;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+
+g text {
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    margin: 20px;
+}
